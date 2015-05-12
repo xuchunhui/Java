@@ -73,3 +73,5 @@ static不能修饰构造器；
 final修饰变量，表示该变量一旦获得初始值后就不可改变；final修饰的类不可有子类(如 java.lang.Math)。不能被继承
 Java 提供的Object类有个final修饰的方法：getClass(),Java不希望任何类重写这个方法，因此用final
 方法，对于该类提供的toString和equals方法，都允许子类重写；没有用final重写。
+
+接口可以有多个直接父接口，但接口智能继承接口，不能继承类。
